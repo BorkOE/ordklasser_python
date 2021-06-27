@@ -68,7 +68,7 @@ for i in range(0,antalFrågor): # Sätt längd på spel
     while True:
         punktFunktion()
         print()
-        svar = pyinputplus.inputMenu(['verb', 'substantiv', 'adjektiv'], lettered=False, numbered=True) # Inhämta svar
+        svar = pyinputplus.inputMenu(['verb', 'substantiv', 'adjektiv'], lettered=False, numbered=True, prompt='Välj ett av följande alternativ:\n') # Inhämta svar
         print()
         punktFunktion()
         
